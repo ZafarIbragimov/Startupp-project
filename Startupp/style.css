@@ -1,0 +1,98 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    background-color: #c29bfd;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1000;
+}
+
+.logo {
+    width: 170px;
+    height: 90px;
+}
+
+.rasm {
+    margin-top: 70px;
+}
+
+.h3 {
+    padding-top: 80px;
+}
+
+.signin {
+    margin-top: 30px;
+    background-color: deepskyblue;
+    color: #c29bfd;
+    margin-bottom: 10px;
+    width: 70px;
+    height: 35px;
+    text-align: center;
+    border-radius: 15px;
+    border: deepskyblue;
+}
+
+.landing {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.yozuvli {
+    padding-top: 190px;
+    gap: 20px;
+}
+
+.tugma {
+    background-color: deepskyblue;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    width: 120px;
+    height: 55px;
+    text-align: center;
+    border-radius: 25px;
+    border: deepskyblue;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+.zindex {
+    display: flex;
+    justify-content: center;
+    z-index: +1;
+    background-color: aliceblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 30px;
+    border: #7f36ed;
+}
+
+.birinchidiv {
+    background-image: url("./img/orqa.png");
+    background-repeat: no-repeat;
+}
+
+.var {
+    border: solid 2px red;
+    display: flex;
+    justify-content: space-around;
+}
+
+.engkotta {
+    display: flex;
+    justify-content: space-around;
+}
